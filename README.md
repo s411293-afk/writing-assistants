@@ -53,7 +53,7 @@ npx serve .
 
 ## 重新產生 PWA 圖示
 
-若需重新產生 `icons/` 目錄下的佔位圖示，可執行：
+圖示來源為 `icons/icon-source.jpg`。若替換來源圖檔後需重新輸出 192/512 與 favicon，可執行：
 
 ```bash
 node tools/generate-icons.mjs

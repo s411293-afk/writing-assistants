@@ -1,9 +1,10 @@
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2';
 const CACHE_NAME = `essay-helper-${CACHE_VERSION}`;
 
 const APP_SHELL = [
   './',
   './index.html',
+  './favicon.ico',
   './manifest.webmanifest',
   './css/style.css',
   './js/app.js',
